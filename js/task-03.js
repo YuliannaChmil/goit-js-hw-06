@@ -14,6 +14,7 @@ const images = [
 ];
 const galleryList = document.querySelector(".gallery");
 const galleryContent = createGalleryContent(images);
+
 galleryList.insertAdjacentHTML("beforeend", galleryContent);
 function createGalleryContent(images) {
   return images
